@@ -1,6 +1,6 @@
 cask "markdown-preview" do
-  version "0.0.11,15"
-  sha256 "d9b72fdaa443f6824aa193d1fc4090b43ce8ed5ac59296d23be0bf62f081988c"
+  version "0.0.12,16"
+  sha256 "05ee30666d641816b9fe4166b5e216f33b0759f0f93dd6376698bf61ee615bca"
 
   url "https://cdn.amore.computer/releases/doc.md-preview/#{version.csv.first}-#{version.csv.second}/Markdown-Preview.dmg",
       verified: "cdn.amore.computer/releases/doc.md-preview/"
