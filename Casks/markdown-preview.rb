@@ -15,6 +15,10 @@ cask "markdown-preview" do
     end
   end
 
+  deprecate! date:             "2026-07-15",
+             because:          "moved to the official homebrew/cask repository",
+             replacement_cask: "markdown-preview"
+
   auto_updates true
   depends_on macos: :sequoia
 

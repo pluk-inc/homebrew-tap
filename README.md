@@ -2,24 +2,26 @@
 
 Homebrew casks for Pluk apps.
 
-## Install
+> [!IMPORTANT]
+> **`markdown-preview` has moved to the official [homebrew/cask](https://formulae.brew.sh/cask/markdown-preview) repository.** The cask in this tap is deprecated. Install from the official repository instead:
+>
+> ```bash
+> brew install --cask markdown-preview
+> ```
+>
+> If you previously installed from this tap, migrate with:
+>
+> ```bash
+> brew uninstall --cask pluk-inc/tap/markdown-preview
+> brew untap pluk-inc/tap
+> brew install --cask markdown-preview
+> ```
 
-```bash
-brew install --cask pluk-inc/tap/markdown-preview
-```
+## Casks
 
-Or tap once and install by short name:
-
-```bash
-brew tap pluk-inc/tap
-brew install --cask markdown-preview
-```
-
-## Available casks
-
-| Cask | Description |
-|------|-------------|
-| [`markdown-preview`](Casks/markdown-preview.rb) | Native macOS Markdown previewer with Quick Look extension — [md-preview.app](https://md-preview.app/) |
+| Cask | Status |
+|------|--------|
+| [`markdown-preview`](Casks/markdown-preview.rb) | Deprecated — use [homebrew/cask](https://formulae.brew.sh/cask/markdown-preview) |
 
 ## Updates
 
